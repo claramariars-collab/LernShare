@@ -1,1 +1,73 @@
 
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f7fb;
+    color: #0B1F3A;
+}
+
+
+/* Kopfbereich */
+
+header {
+    background: #0B1F3A;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+
+/* Navigation */
+
+nav {
+    background: #123B70;
+    padding: 15px;
+    text-align: center;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+
+
+/* Buttons */
+
+.button {
+    background: #123B70;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+/* Inhaltskarten */
+
+.box {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px #ddd;
+}
+
+
+/* Handy Ansicht */
+
+@media(max-width:600px){
+
+    h1 {
+        font-size: 30px;
+    }
+
+    nav a {
+        display:block;
+        margin:15px;
+    }
+
+}
